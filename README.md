@@ -12,7 +12,7 @@ Mathsteps requires Node version > 6.0.0
 
 To install mathsteps using npm:
 
-    npm install mathsteps
+    npm install github:william5553/mathsteps
 
 ```js
 const mathsteps = require('mathsteps');
@@ -57,7 +57,7 @@ Learn more here: [CONTRIBUTING.md](CONTRIBUTING.md).
 
 First clone the project from github:
 
-    git clone https://github.com/socraticorg/mathsteps.git
+    git clone https://github.com/william5553/mathsteps
     cd mathsteps
 
 Install the project dependencies:
