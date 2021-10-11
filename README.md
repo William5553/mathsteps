@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=iCrargw1rrM
 
 ## Requirements
 
-Mathsteps requires Node version > 6.0.0
+Mathsteps requires Node version >= 6.0.0
 
 ## Usage
 

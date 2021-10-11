@@ -1,6 +1,6 @@
 {
   "name": "@william5553/mathsteps",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Step by step math solutions",
   "main": "index.js",
   "dependencies": {
@@ -10,15 +10,15 @@
     "node": ">=6.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "^8.0.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-sort-requires": "^2.1.0",
-    "mocha": "8.4.0"
+    "mocha": "^9.0.2"
   },
   "scripts": {
-    "lint": "node_modules/.bin/eslint .",
-    "lint:fix": "node_modules/.bin/eslint . --fix",
-    "test": "node_modules/.bin/mocha --recursive",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "mocha --recursive",
     "setup-hooks": "ln -s ../../scripts/git-hooks/pre-commit.sh .git/hooks/pre-commit"
   },
   "repository": {
